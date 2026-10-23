@@ -1,0 +1,13 @@
+{
+	"shape": "glow",
+	"density": 0.000025,
+	"max": 60,
+	"colors": ["#fff3a3", "#d8ff8a"],
+	"size": [2, 4],
+	"speed": [0.15, 0.5],
+	"direction": 0,
+	"spread": 180,
+	"wander": 0.04,
+	"opacity": [0.4, 1],
+	"twinkle": [0.4, 1.4]
+}

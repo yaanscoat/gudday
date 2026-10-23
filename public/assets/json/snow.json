@@ -1,0 +1,12 @@
+{
+	"shape": "circle",
+	"density": 0.00009,
+	"max": 180,
+	"colors": ["#ffffff"],
+	"size": [1, 3.4],
+	"speed": [0.35, 1.1],
+	"direction": 90,
+	"spread": 12,
+	"sway": [0.4, 1.2],
+	"opacity": [0.35, 0.9]
+}

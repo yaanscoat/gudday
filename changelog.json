@@ -1,0 +1,56 @@
+[
+	{
+		"version": "1.3.0",
+		"name": "Kookaburra",
+		"date": "2026-10-24",
+		"changes": [
+			"New notification system: animated stacking notes with progress timers, pause on hover, swipe to dismiss, merged duplicates, undo actions and a notification history under the bell.",
+			"Background effects (snow, rain, stars, fireflies, sakura, bubbles, embers), each defined as JSON in public/assets/json.",
+			"Changeable background: upload an image, paste a link, or turn it off.",
+			"About shows the build time in eastern Australian time and the active gudday clients."
+		]
+	},
+	{
+		"version": "1.2.0",
+		"name": "Kookaburra",
+		"date": "2026-10-24",
+		"changes": [
+			"Fully static: hosts on GitHub Pages (or any static host) with no server and no config file.",
+			"Proxy traffic now goes over Wisp, with a configurable server in Settings > General.",
+			"Game feeds load straight from the browser, are cached for instant repeat visits, and fill in source by source.",
+			"Works from a subpath like /gudday/; app files are cached by the service worker for fast reloads."
+		]
+	},
+	{
+		"version": "1.1.1",
+		"name": "Kookaburra",
+		"date": "2026-10-24",
+		"changes": [
+			"Added YouTube Playables and CKV game sources.",
+			"The proxy now waits for an updated service worker before starting, so fixes take effect without a stale worker in between.",
+			"Responses that arrive without headers are repaired instead of failing the request.",
+			"About shows which service worker version is running."
+		]
+	},
+	{
+		"version": "1.1.0",
+		"name": "Kookaburra",
+		"date": "2026-10-24",
+		"changes": [
+			"Fixed YouTube showing \"You're offline\": request bodies were being dropped in Firefox, so every POST went out empty.",
+			"Lighter liquid glass: panels use a pre-frosted copy of the background instead of live blur.",
+			"Removed the logo animation.",
+			"About now shows the version, changelog and the latest build from GitHub."
+		]
+	},
+	{
+		"version": "1.0.0",
+		"name": "Wombat",
+		"date": "2026-10-24",
+		"changes": [
+			"Home page with logo and search that opens the built-in browser.",
+			"Games library with 3,000+ games from Selenite, Zones, Velara and Truffled, with thumbnails and per-source counts.",
+			"Settings with themes, performance mode, cloaking and history."
+		]
+	}
+]

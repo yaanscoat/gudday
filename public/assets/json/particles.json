@@ -1,0 +1,11 @@
+{
+	"effects": [
+		{ "id": "snow", "label": "Snow", "description": "Soft drifting flakes" },
+		{ "id": "rain", "label": "Rain", "description": "Steady angled streaks" },
+		{ "id": "stars", "label": "Stars", "description": "A quiet twinkling sky" },
+		{ "id": "fireflies", "label": "Fireflies", "description": "Glowing lights that wander" },
+		{ "id": "sakura", "label": "Sakura", "description": "Falling cherry petals" },
+		{ "id": "bubbles", "label": "Bubbles", "description": "Rings rising upward" },
+		{ "id": "embers", "label": "Embers", "description": "Sparks floating up" }
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"shape": "ring",
+	"density": 0.00002,
+	"max": 50,
+	"colors": ["#ffffff"],
+	"size": [4, 14],
+	"speed": [0.4, 1.1],
+	"direction": 270,
+	"spread": 8,
+	"sway": [0.3, 0.9],
+	"opacity": [0.2, 0.55]
+}

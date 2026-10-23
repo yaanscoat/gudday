@@ -1,0 +1,12 @@
+{
+	"shape": "line",
+	"density": 0.00011,
+	"max": 220,
+	"colors": ["#c9dcff"],
+	"size": [1, 1.6],
+	"length": [12, 26],
+	"speed": [9, 15],
+	"direction": 100,
+	"spread": 2,
+	"opacity": [0.18, 0.45]
+}

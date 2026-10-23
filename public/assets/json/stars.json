@@ -1,0 +1,12 @@
+{
+	"shape": "star",
+	"density": 0.00008,
+	"max": 160,
+	"colors": ["#ffffff", "#ffe9c4", "#cfe3ff"],
+	"size": [0.6, 1.9],
+	"speed": [0.02, 0.08],
+	"direction": 0,
+	"spread": 180,
+	"opacity": [0.3, 1],
+	"twinkle": [0.6, 2.2]
+}

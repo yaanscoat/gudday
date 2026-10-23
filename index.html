@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en" data-theme="crimson">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>gudday</title>
+		<link rel="icon" href="pfp.jpeg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="modulepreload" href="js/app.js" />
+		<link rel="modulepreload" href="js/engine.js" />
+		<link rel="modulepreload" href="js/games.js" />
+		<link rel="modulepreload" href="js/settings.js" />
+		<link rel="modulepreload" href="js/storage.js" />
+		<link rel="modulepreload" href="js/url.js" />
+		<link rel="modulepreload" href="js/history.js" />
+		<link rel="modulepreload" href="js/cloak.js" />
+		<link rel="modulepreload" href="js/ui.js" />
+		<link rel="modulepreload" href="js/notify.js" />
+		<link rel="modulepreload" href="js/particles.js" />
+		<link rel="modulepreload" href="js/wallpaper.js" />
+		<meta name="robots" content="noindex" />
+	</head>
+
+	<body>
+		<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+			<defs>
+				<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+				<symbol id="i-settings" viewBox="0 0 24 24"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></symbol>
+				<symbol id="i-home" viewBox="0 0 24 24"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol>
+				<symbol id="i-gamepad" viewBox="0 0 24 24"><line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></symbol>
+				<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></symbol>
+				<symbol id="i-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+				<symbol id="i-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+				<symbol id="i-reload" viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></symbol>
+				<symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+				<symbol id="i-palette" viewBox="0 0 24 24"><circle cx="13.5" cy="6.5" r="1"/><circle cx="17.5" cy="10.5" r="1"/><circle cx="8.5" cy="7.5" r="1"/><circle cx="6.5" cy="12.5" r="1"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></symbol>
+				<symbol id="i-eye-off" viewBox="0 0 24 24"><path d="M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49"/><path d="M14.084 14.158a3 3 0 0 1-4.242-4.242"/><path d="M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143"/><path d="m2 2 20 20"/></symbol>
+				<symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></symbol>
+				<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+				<symbol id="i-layers" viewBox="0 0 24 24"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/></symbol>
+				<symbol id="i-maximize" viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M21 8V5a2 2 0 0 0-2-2h-3"/><path d="M3 16v3a2 2 0 0 0 2 2h3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/></symbol>
+				<symbol id="i-external" viewBox="0 0 24 24"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+				<symbol id="i-shuffle" viewBox="0 0 24 24"><path d="m18 14 4 4-4 4"/><path d="m18 2 4 4-4 4"/><path d="M2 18h1.973a4 4 0 0 0 3.3-1.7l5.454-7.6a4 4 0 0 1 3.3-1.7H22"/><path d="M2 6h1.972a4 4 0 0 1 3.6 2.2"/><path d="M22 18h-6.041a4 4 0 0 1-3.3-1.8l-.359-.45"/></symbol>
+				<symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+				<symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></symbol>
+				<symbol id="i-git" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><line x1="3" x2="9" y1="12" y2="12"/><line x1="15" x2="21" y1="12" y2="12"/></symbol>
+				<symbol id="i-bell" viewBox="0 0 24 24"><path d="M10.268 21a2 2 0 0 0 3.464 0"/><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"/></symbol>
+				<symbol id="i-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></symbol>
+				<symbol id="i-circle-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></symbol>
+				<symbol id="i-circle-x" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></symbol>
+				<symbol id="i-image" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></symbol>
+				<symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></symbol>
+				<symbol id="i-upload" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></symbol>
+				<symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></symbol>
+				<symbol id="i-monitor" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></symbol>
+				<symbol id="i-undo" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></symbol>
+			</defs>
+		</svg>
+
+		<canvas id="fx" aria-hidden="true" hidden></canvas>
+
+		<header class="topbar">
+			<button class="brand" type="button" data-view="home" aria-label="gudday home">
+				<img src="pfp.jpeg" alt="" width="32" height="32" />
+				<span>gudday</span>
+			</button>
+
+			<nav class="dock glass" aria-label="Sections">
+				<button type="button" data-view="home" class="dock-item"><svg class="icon"><use href="#i-home"/></svg><span>Home</span></button>
+				<button type="button" data-view="games" class="dock-item"><svg class="icon"><use href="#i-gamepad"/></svg><span>Games</span></button>
+				<button type="button" data-view="browser" class="dock-item"><svg class="icon"><use href="#i-globe"/></svg><span>Browser</span></button>
+			</nav>
+
+			<div class="topbar-actions">
+				<button id="open-notes" type="button" class="icon-btn glass round" aria-label="Notifications" title="Notifications">
+					<svg class="icon"><use href="#i-bell"/></svg><span class="badge" hidden></span>
+				</button>
+				<button id="open-settings" type="button" class="icon-btn glass round" aria-label="Settings" title="Settings (Ctrl+,)">
+					<svg class="icon"><use href="#i-settings"/></svg>
+				</button>
+			</div>
+		</header>
+
+		<div id="notes-panel" class="notes-panel glass" popover>
+			<header><strong>Notifications</strong><button type="button" class="link-btn" data-clear>Clear all</button></header>
+			<ul class="notes-list"></ul>
+		</div>
+		<section id="note-stack" class="note-stack" popover="manual" aria-live="polite"></section>
+
+		<main>
+			<section id="view-home" class="view" data-active>
+				<div class="hero">
+					<img class="hero-logo" src="pfp.jpeg" alt="gudday logo" width="128" height="128" />
+					<h1 class="hero-title">gudday</h1>
+					<p class="hero-sub">browse freely, play anything</p>
+
+					<form id="home-search" class="search glass" role="search">
+						<svg class="icon search-icon"><use href="#i-search"/></svg>
+						<input id="home-input" type="text" placeholder="Search the web or enter a URL" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="go" aria-label="Search or URL" />
+						<button type="submit" class="search-go" aria-label="Go"><svg class="icon"><use href="#i-right"/></svg></button>
+					</form>
+
+					<div class="chips">
+						<button type="button" class="chip glass" data-view="games"><svg class="icon"><use href="#i-gamepad"/></svg>Browse games<span id="home-game-count" class="chip-count"></span></button>
+						<button type="button" class="chip glass" id="home-random"><svg class="icon"><use href="#i-shuffle"/></svg>Random game</button>
+					</div>
+				</div>
+			</section>
+
+			<section id="view-games" class="view">
+				<div class="games-head glass">
+					<div class="games-title">
+						<h2>Games</h2>
+						<span id="games-count" class="muted"></span>
+					</div>
+					<label class="filter">
+						<svg class="icon"><use href="#i-search"/></svg>
+						<input id="games-filter" type="search" placeholder="Filter games" autocomplete="off" spellcheck="false" aria-label="Filter games" />
+					</label>
+					<button id="games-random" type="button" class="btn glass"><svg class="icon"><use href="#i-shuffle"/></svg><span>Random</span></button>
+				</div>
+				<div id="source-chips" class="source-chips" role="radiogroup" aria-label="Game source"></div>
+				<div id="games-grid" class="grid"></div>
+				<div id="games-sentinel" class="sentinel"></div>
+				<p id="games-empty" class="empty" hidden></p>
+			</section>
+
+			<section id="view-browser" class="view">
+				<div class="browser-bar glass">
+					<button id="nav-back" type="button" class="icon-btn" aria-label="Back"><svg class="icon"><use href="#i-left"/></svg></button>
+					<button id="nav-forward" type="button" class="icon-btn" aria-label="Forward"><svg class="icon"><use href="#i-right"/></svg></button>
+					<button id="nav-reload" type="button" class="icon-btn" aria-label="Reload"><svg class="icon"><use href="#i-reload"/></svg></button>
+					<form id="address-form" class="address" role="search">
+						<svg class="icon"><use href="#i-search"/></svg>
+						<input id="address" type="text" placeholder="Search or enter address" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="go" aria-label="Address" />
+						<span id="loading" class="loader" hidden></span>
+					</form>
+					<button id="nav-fullscreen" type="button" class="icon-btn" aria-label="Fullscreen"><svg class="icon"><use href="#i-maximize"/></svg></button>
+				</div>
+				<div id="frame-wrap" class="frame-wrap">
+					<div id="browser-empty" class="browser-empty">
+						<svg class="icon"><use href="#i-globe"/></svg>
+						<p>Search or type an address above to start browsing.</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<dialog id="settings" class="settings" aria-labelledby="settings-title">
+			<div class="settings-shell glass">
+				<aside class="settings-nav">
+					<div class="settings-brand">
+						<img src="pfp.jpeg" alt="" width="36" height="36" />
+						<div>
+							<h2 id="settings-title">Settings</h2>
+							<span class="muted">gudday</span>
+						</div>
+					</div>
+					<div role="tablist" aria-orientation="vertical" class="tabs">
+						<button role="tab" type="button" data-tab="general" aria-selected="true"><svg class="icon"><use href="#i-globe"/></svg>General</button>
+						<button role="tab" type="button" data-tab="appearance"><svg class="icon"><use href="#i-palette"/></svg>Appearance</button>
+						<button role="tab" type="button" data-tab="games"><svg class="icon"><use href="#i-layers"/></svg>Games</button>
+						<button role="tab" type="button" data-tab="cloaking"><svg class="icon"><use href="#i-eye-off"/></svg>Cloaking</button>
+						<button role="tab" type="button" data-tab="history"><svg class="icon"><use href="#i-clock"/></svg>History</button>
+						<button role="tab" type="button" data-tab="about"><svg class="icon"><use href="#i-info"/></svg>About</button>
+					</div>
+				</aside>
+
+				<div class="settings-body">
+					<button type="button" class="icon-btn settings-close" data-close aria-label="Close settings"><svg class="icon"><use href="#i-x"/></svg></button>
+
+					<section class="pane" data-pane="general">
+						<h3>General</h3>
+						<p class="pane-sub">How searches and browsing behave.</p>
+						<div class="group">
+							<span class="group-label">Search engine</span>
+							<div id="engine-options" class="options"></div>
+						</div>
+						<div class="row">
+							<div><strong>Save history</strong><span class="muted">Keep a list of pages you visit on this device.</span></div>
+							<label class="switch"><input type="checkbox" id="opt-history" role="switch" /><span></span></label>
+						</div>
+						<label class="field">
+							<span>Proxy server (Wisp)</span>
+							<input id="opt-wisp" type="url" placeholder="" spellcheck="false" autocomplete="off" />
+							<small class="muted">Leave blank to use the public server. Use your own for better speed and reliability.</small>
+						</label>
+					</section>
+
+					<section class="pane" data-pane="appearance" hidden>
+						<h3>Appearance</h3>
+						<p class="pane-sub">Pick a theme. Changes apply instantly.</p>
+						<div id="theme-options" class="themes"></div>
+						<div class="group">
+							<span class="group-label">Background</span>
+							<div id="background-options" class="options"></div>
+							<div class="bg-actions">
+								<button type="button" id="bg-upload" class="btn glass"><svg class="icon"><use href="#i-upload"/></svg>Upload image</button>
+								<form id="bg-url-form" class="bg-url">
+									<svg class="icon"><use href="#i-link"/></svg>
+									<input id="bg-url" type="url" placeholder="Paste an image link" spellcheck="false" autocomplete="off" />
+									<button type="submit" class="link-btn">Use</button>
+								</form>
+								<input id="bg-file" type="file" accept="image/*" hidden />
+							</div>
+						</div>
+						<div class="group">
+							<span class="group-label">Background effect</span>
+							<div id="effect-options" class="options"></div>
+						</div>
+						<div class="row">
+							<div><strong>Performance mode</strong><span class="muted">Flattens the glass and turns off animations. Use on older or slower devices.</span></div>
+							<label class="switch"><input type="checkbox" id="opt-lowpower" role="switch" /><span></span></label>
+						</div>
+					</section>
+
+					<section class="pane" data-pane="games" hidden>
+						<h3>Games</h3>
+						<p class="pane-sub">Choose which library the Games page shows.</p>
+						<div id="source-options" class="options"></div>
+					</section>
+
+					<section class="pane" data-pane="cloaking" hidden>
+						<h3>Cloaking</h3>
+						<p class="pane-sub">Disguise this tab's title and icon.</p>
+						<div class="group">
+							<span class="group-label">Preset</span>
+							<div id="cloak-options" class="options"></div>
+						</div>
+						<div class="group" id="cloak-custom">
+							<label class="field"><span>Tab title</span><input id="opt-cloak-title" type="text" maxlength="120" placeholder="e.g. My Drive" /></label>
+							<label class="field"><span>Tab icon URL</span><input id="opt-cloak-icon" type="url" placeholder="https://example.com/favicon.ico" /></label>
+						</div>
+						<button type="button" id="open-blank" class="btn glass"><svg class="icon"><use href="#i-external"/></svg>Open gudday in about:blank</button>
+					</section>
+
+					<section class="pane" data-pane="history" hidden>
+						<div class="pane-head">
+							<div>
+								<h3>History</h3>
+								<p class="pane-sub">Recently visited pages.</p>
+							</div>
+							<button type="button" id="clear-history" class="btn glass"><svg class="icon"><use href="#i-trash"/></svg>Clear</button>
+						</div>
+						<ul id="history-list" class="history"></ul>
+					</section>
+
+					<section class="pane" data-pane="about" hidden>
+						<h3>About</h3>
+						<p class="pane-sub">gudday is a web proxy and game library.</p>
+						<div class="version-card">
+							<img src="pfp.jpeg" alt="" width="52" height="52" />
+							<div class="version-main">
+								<strong id="ver-name">gudday</strong>
+								<span id="ver-number" class="muted">Loading version...</span>
+								<span id="ver-built" class="muted"></span>
+							</div>
+							<a id="ver-build" class="build-pill" target="_blank" rel="noopener noreferrer">
+								<svg class="icon"><use href="#i-git"/></svg><span>Checking GitHub...</span>
+							</a>
+						</div>
+						<dl id="about-list" class="facts"></dl>
+						<div class="clients-head">
+							<span class="group-label">Active clients</span>
+							<button type="button" id="refresh-clients" class="link-btn">Refresh</button>
+						</div>
+						<ul id="client-list" class="clients"></ul>
+						<span class="group-label">Changelog</span>
+						<ol id="changelog" class="changelog"></ol>
+						<button type="button" id="reset-settings" class="btn glass"><svg class="icon"><use href="#i-undo"/></svg>Reset all settings</button>
+					</section>
+				</div>
+			</div>
+		</dialog>
+
+
+		<script type="module" src="js/app.js"></script>
+	</body>
+</html>

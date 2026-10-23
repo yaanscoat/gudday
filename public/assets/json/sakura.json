@@ -1,0 +1,13 @@
+{
+	"shape": "petal",
+	"density": 0.00003,
+	"max": 70,
+	"colors": ["#ffc4d6", "#ffb0c8", "#ffe0ea"],
+	"size": [5, 9],
+	"speed": [0.6, 1.4],
+	"direction": 75,
+	"spread": 20,
+	"sway": [0.6, 1.6],
+	"spin": [0.4, 1.6],
+	"opacity": [0.6, 0.95]
+}
