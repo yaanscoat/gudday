@@ -1,4 +1,4 @@
-<img src="Screnshot.png" alt="Screenshot" width="400">
+[!image](Screenshot.png)
 <h1 align="center">Gudday</h1>
 
 <p align="center">
