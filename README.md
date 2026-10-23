@@ -1,6 +1,6 @@
 <h1 align="center">Gudday</h1>
 <p align="center">
-  <img src="Screenshot.png" alt="App Screenshot" width="600">
+  <img src="Screenshot.png" alt="App Screenshot" width="700">
 </p>
 <p align="center">
   Gudday is a UBG/Web-Proxy that has over 3,000 games pulled from multiple sources and quick and fast browsing.
